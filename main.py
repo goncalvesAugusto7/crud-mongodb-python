@@ -147,4 +147,14 @@ def delete_doc_by_id(id: str):
 
     data_collection.delete_one({"_id": _id})
 
-delete_doc_by_id("68caf7be7e758608567e88a9")
+# delete_doc_by_id("68caf7be7e758608567e88a9")
+
+def delete_all():
+    data_collection.delete_many({})
+##############################
+
+###############################
+######### RELATIONS ###########
+###############################
+
+
